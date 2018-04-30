@@ -1,0 +1,161 @@
+/* PHONE STYLING */
+body{
+    font-family: $font;
+	padding: 0;
+	margin: 0;
+}
+header{
+    background-color: $dark-red !important; 
+}
+
+.container-nav{
+	height: 95px;
+	width: 1140px;
+}
+.navbar-brand{
+    width: 150px;
+	padding: 8px 10px;
+	
+    img{
+        width: 100%;
+    }
+}
+nav::after{
+	@include clear-fix();
+}
+.dropdown-content{
+	width: 100%;
+	a{
+		width: 100%;
+	}
+}
+.primary-nav > li:first-child{
+	border-top: none;
+}
+.primary-nav.open{
+	width: 300px;
+	box-shadow: 0 7px 10px $dark-grey;
+}
+.primary-nav li a{
+	border-top: none;
+	border-bottom: none;
+}
+.primary-nav li{
+	padding: 0;
+	ul li{
+		padding: 0;
+	}
+}
+nav{
+	float: right;
+	.primary-nav{
+		background-color: transparent;
+	
+	}
+}
+ul{
+	list-style-type: none;
+	margin-right: 10px;
+}
+li{
+	float: left;
+	padding: 10px;
+
+a{
+	color: $white;
+	list-style-type: none;
+	text-decoration: none;
+	}
+}
+
+// END OF NAVIGATION STLYING
+.infoBar{
+	position: relative;
+	top: -64px;
+    background-color: transparent;
+    overflow: hidden;
+
+	a{
+		color: white;
+	}
+    .infoItem{
+        font-size: 12px;
+        color: white;
+        text-align: center;
+
+    }
+    .dates{
+		position: relative;
+		top: -30px;
+        margin-left: 5px;
+		
+    }
+}
+.tandy{
+	position: relative;
+	top: -5px;
+	right:-32px;
+    width: 60px;
+    img{
+        width: 100%;
+    }
+}
+#social{
+	position: relative;
+	top: 2px;
+	margin-right: 65px;
+   .social{
+	   width: 100%;
+	   margin-right: 40px;
+      
+   }
+    i{
+        font-size: 18px;
+        padding: 4px;
+    }
+}
+
+#social::after{
+@include clear-fix();
+}
+
+//====================== STYLING FOR CARD ====================
+.phone-col {
+	width: 200px;
+	margin: auto;
+}
+.card:hover{
+	border: 2px solid $dark-red;
+}
+.cards{
+	padding: 20px;
+
+}
+.card{
+	width: 100% !important;
+	margin-bottom: 20px;
+	.btn-primary{
+		margin: auto;
+		width: 100%;
+		border: none;
+		background-color: $dark-red;
+		font-size: 8px;
+		text-align: center;
+	}
+}
+.card::after{
+	@include clear-fix();
+}
+//=============== STYLING FOR THE FOOTER =====================
+
+.footer{
+//	margin-top: 300em;
+	background-color: $dark-red !important; 
+	p{
+		color: white;
+		font-size: 18px;
+		a{
+			color: white;
+		}
+	}
+}

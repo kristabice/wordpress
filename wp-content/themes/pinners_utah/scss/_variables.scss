@@ -1,0 +1,14 @@
+/* VARIABLES */
+
+$dark-red: #A42025;
+$light-red: #C12A34;
+$dark-grey: #585657;
+$white: #Ffffff;
+
+$font: 'Montserrat', sans-serif;
+
+@mixin clear-fix() {
+    content: "";
+    display: block;
+    clear: both;
+}

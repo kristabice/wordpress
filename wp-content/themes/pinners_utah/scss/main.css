@@ -1,0 +1,62 @@
+/* CSS Document */
+/* VARIABLES */
+/* PHONE STYLING */
+body {
+  font-family: "Montserrat", sans-serif; }
+
+header {
+  background-color: #A42025 !important; }
+
+#navbar {
+  background-color: #A42025 !important; }
+
+#nav-link {
+  color: #Ffffff;
+  font-size: 18px;
+  margin-left: 10px; }
+
+.dropdown {
+  margin-left: 5px;
+  color: #Ffffff !important;
+  font-size: 18px !important; }
+
+.infoBar {
+  background-color: #A42025;
+  overflow: hidden; }
+  .infoBar .infoItem {
+    font-size: 10px;
+    color: white;
+    text-align: center; }
+  .infoBar .dates {
+    margin-left: 5px; }
+
+.tandy {
+  width: 35px;
+  margin: auto; }
+  .tandy img {
+    width: 100%; }
+
+#social i {
+  font-size: 12px;
+  padding: 4px; }
+
+#social::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+/* CSS Document */
+/* CSS Document */
+@media only screen and (min-width: 960px) {
+  .navbar-brand {
+    width: 180px; }
+    .navbar-brand img {
+      width: 100%; }
+
+  .logo-container {
+    width: 200px;
+    padding: 10px 20px 0px 20px; }
+    .logo-container .logo {
+      width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */
